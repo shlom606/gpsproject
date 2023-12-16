@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DemoGame">
+
+    <ImageView
+        android:id="@+id/jcircle"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:background="@drawable/jedicircle"
+        ></ImageView>
+
+    <ImageView
+        android:id="@+id/scircle"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="115dp"
+        android:layout_toRightOf="@+id/jcircle"
+        android:background="@drawable/sithcircle"></ImageView>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/username"
+        android:layout_below="@id/jcircle"></TextView>
+</RelativeLayout>
